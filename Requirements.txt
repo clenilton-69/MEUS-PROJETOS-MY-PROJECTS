@@ -1,0 +1,5 @@
+these are the libraries used in the Project:
+
+streamlit
+plotly
+pandas
