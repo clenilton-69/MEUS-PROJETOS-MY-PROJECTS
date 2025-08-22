@@ -15,15 +15,15 @@ if pagina == "Início":
 
 elif pagina == "Marketing":
     st.title("📣 Estratégias de Marketing")
-    st.image("marketing.jpg", use_container_width=True)
     st.write("Dicas para atrair mais clientes e fortalecer sua marca.")
+    st.image("marketing.jpg", use_container_width=True)
 
 elif pagina == "Financeiro":
     st.title("💰 Gestão Financeira")
-    st.image("finacias.jpg", use_container_width=True)
     st.write("Controle de custos, fluxo de caixa e planejamento financeiro.")
+    st.image("finacias.jpg", use_container_width=True)
 
 elif pagina == "Equipe":
     st.title("👨‍💻 Equipe do Projeto")
-    st.image("equipe.jpg", use_container_width=True)
     st.write("Conheça quem está por trás do projeto.")
+    st.image("equipe.jpg", use_container_width=True)
