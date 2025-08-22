@@ -6,6 +6,7 @@ pagina = st.sidebar.radio("Navegue pelo app", ["Início", "Marketing", "Financei
 
 if pagina == "Início":
     st.title("💼 DICAS EMPRESARIAIS")
+    
    st.markdown("💡 Aqui você encontra estratégias para impulsionar seu negócio")
 st.write('Onde você pode encontrar dicas valiosas para o seu negócio, desde estratégias de marketing até gestão financeira.')
 
@@ -33,5 +34,6 @@ elif pagina == "Equipe":
     st.title("👨‍💻 Equipe do Projeto")
     st.write("Conheça quem está por trás do projeto.")
     st.image("equipe.jpg", use_container_width=True)
+
 
 
